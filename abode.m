@@ -1,4 +1,10 @@
 function abode(sys,y)
+%% function abode(sys,y)
+% abode read system (sys) as input along with y (k) constant values of the
+% transfer function and plot bode plot using matlab bode plot and add
+% asymptoes on the plot along with table required for bode asysmptotes.
+
+
 %---------Finding poles and zeros --------------
 if nargin == 1
     k=1;
